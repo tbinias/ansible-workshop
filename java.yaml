@@ -1,0 +1,5 @@
+- hosts: app
+  tasks:
+  - name: install openjdk7
+    apt: name=openjdk-7-jre-headless update_cache=yes
+

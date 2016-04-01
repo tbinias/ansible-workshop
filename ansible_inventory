@@ -1,7 +1,10 @@
 #x00      ansible_ssh_host=146.185.137.59 # new
 
-[app]
 b01	ansible_ssh_host=146.185.144.153
+b02     ansible_ssh_host=146.185.144.157
+
+[app]
+b01
 
 [db]
-b02     ansible_ssh_host=146.185.144.157
+b02
