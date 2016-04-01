@@ -1,0 +1,16 @@
+x00      ansible_ssh_host=146.185.137.59 # new
+
+[app]
+b01	ansible_ssh_host=146.185.144.153
+
+[db]
+b02     ansible_ssh_host=146.185.144.157
+
+# [bases]
+# ?00 ansible_ssh_host=<IP_ADDRESS>
+
+# [web]
+# ?01 ansible_ssh_host=<IP_ADDRESS>
+
+# [db]
+# ?02 ansible_ssh_host=<IP_ADDRESS>
